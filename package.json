@@ -1,6 +1,6 @@
 {
   "name": "example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "main.js",
   "repository": {
@@ -8,8 +8,8 @@
     "url": "https://github.com/JINU98/test-mimyk"
   },
   "scripts": {
-    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
     "build": "electron-builder build --win --publish never",
     "deploy": "electron-builder build --win --publish always"
   },
